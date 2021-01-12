@@ -105,7 +105,7 @@ int main() {
         curr = curr->next;
     }
     curr = head;
-    for (int i = 0; i < (length/2)-1; i++){
+    for (int i = 0; i < (length/2); i++){
         curr = curr->next;
     }
     printf("Middle element : %d\n", curr->score);
